@@ -2,7 +2,7 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "Source": "src/index.html",
-  "homepage": "https://github.com/roshniyadav00001/web-dev-top-myportfolio.git",
+  "homepage": "https://github.com/roshniyadav00001/Portfolio-app-assignment.git",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",

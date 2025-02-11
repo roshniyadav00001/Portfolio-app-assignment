@@ -1,7 +1,7 @@
 
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Index from './Components/Index';
+import Home from './Components/Home';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
@@ -13,7 +13,7 @@ const App = () => {
     <Router >
       <Header />
       <Routes>
-        <Route path="/" element={<Index />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Portfolio />} />
